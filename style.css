@@ -1,0 +1,50 @@
+body{
+    background-color: aliceblue;
+    margin: 100px 200px;
+    
+}
+
+.trans {
+    width: 100px;
+    height: 100px;
+    background: rgb(182, 75, 75);
+    transition: width 2s linear 1s;
+  }
+  
+  .trans:hover {
+    width: 300px;
+  }
+
+  .rotate {
+    width: 300px;
+    height: 100px;
+    background-color: rgb(255, 0, 183);
+    border: 1px solid black;
+  }
+  
+  #myDiv {
+    transform: rotate(40deg);
+    background-color: rgb(255, 0, 183);
+    width: 300px;
+    height: 100px;
+  }
+  .scw {
+    width: 300px;
+    height: 100px;
+    background-color: rgb(0, 136, 255);
+    border: 1px solid black;
+  }
+  
+  #myDiv1 {
+    width: 300px;
+    height: 100px;
+    background-color: rgb(0, 136, 255);
+    transform: matrix(1, -0.3, 0, 1, 0, 0);
+  }
+  
+  #myDiv2 {
+    width: 300px;
+    height: 100px;
+    background-color: rgb(214, 221, 227);
+    transform: matrix(1, 0, 0.5, 1, 150, 0);
+  }
